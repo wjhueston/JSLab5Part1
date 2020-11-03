@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel ="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="code.js"></script>
+<p>What is your rank in the imperial army?</p>
+<form>
+    <input type="radio" id="moff" name="rank" data-rank="Moff" checked="checked">
+    <label for="moff">Moff</label><br>
+
+    <input type="radio" id="admiral" name="rank" data-rank="Admiral">
+    <label for="admiral">Admiral</label><br>
+
+    <input type="radio" id="grandMoff" name="rank" data-rank="Grand Moff">
+    <label for="grandMoff">Grand Moff</label><br>
+
+    <input type="radio" id="darth" name="rank" data-rank="Darth">
+    <label for="darth">Darth</label><br><br>
+
+    <label for="firstName">First Name</label>
+    <input type="text" id="firstName"><br><br>
+    <label for="lastName">Last Name</label>
+    <input type="text" id="lastName"><br><br>
+    <button id="respond">
+        <span class="buttonTextOne">And Make it Snappy</span>
+        <span class="buttonTextTwo">I haven't Got All Day</span>
+        <span class="buttonTextThree">The Emperor will hear about this</span>
+        <span class="buttonTextFour">I'll have your job</span>
+        <span class="buttonTextFive">Hurry it up</span>
+    </button>
+</form>
+<p id="responsePhrase">
+    <span id="rankColor"><span id="rankResponse"></span></span>
+</p>
+
+
+
+</body>
+</html>
